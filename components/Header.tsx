@@ -98,6 +98,7 @@ const Header: React.FC<HeaderProps> = ({
                 </div>
                 <div className="flex md:hidden gap-x-2 items-center">
                     <button
+                    onClick={() => router.push("/")}
                     className="
                     rounded-full
                     p-2
@@ -112,6 +113,7 @@ const Header: React.FC<HeaderProps> = ({
                         <HiHome className="text-black" size={20}/>
                     </button>
                     <button
+                    onClick={() => router.push("/search")}
                     className="
                     rounded-full
                     p-2
