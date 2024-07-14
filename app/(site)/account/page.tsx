@@ -1,17 +1,7 @@
-import Avatar from "@/components/Avatar";
 import Header from "@/components/Header";
-import { UserDetails } from "@/types";
-import Image from "next/image";
 import AccountContent from "./components/AccountContent";
 
-interface AccountProps {
-    avatar_url: UserDetails
-}
-
-const Account: React.FC<AccountProps> = ({
-    avatar_url,
-}) => {
-    let avatar = avatar_url
+const Account = () => {
 
     return ( 
         <div
