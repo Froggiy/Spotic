@@ -15,8 +15,8 @@ const font = Figtree({ subsets: ["latin"] });
 export const revalidate = 0;
 
 export const metadata: Metadata = {
-  title: "Srotify",
-  description: "Lsten to music!",
+  title: "Spotic",
+  description: "Lsten to music 'for free'!",
 };
 
 export default async function RootLayout({
